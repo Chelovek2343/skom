@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #000;
+}
+
+/* Header */
+.header{
+	height: 800px;
+	background: url(../img/Header/skomorohi-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.header a{
+	text-decoration: none;
+}
+
+.header i{
+	display: flex;
+	justify-content: center;
+	margin-top: 617px;
+
+	font-weight: 200;
+	font-size: 40px;
+	color: #c2c2c2;
+}
+
+/* Nav */
+.nav{
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+}
+
+.nav_logo{
+	margin: 10px;
+}
+
+.nav li{
+	margin: -38px 10px 0;
+}
+
+.nav a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+
+nav img{
+	padding-top: 36px;
+	width: 300px;
+} 
+
+/* Post */
+.post{
+	height: 900px;
+	margin-top: 100px;
+}
+
+
+.cont_post{
+	width: 400px;
+	height: 200px;
+	background: #fff;
+
+	margin-top: 40px;
+}
+
+.img_items{
+	width: 400px;
+	margin-left: -50px;
+}
+
+.img_items_1{
+	margin-left: -100px;
+}
+
+.img_items_2{
+	margin-left: -100px;
+}
+
+.subtitle{
+	padding-top: 10px;
+	padding-left: 10px;
+	color: #888585;
+}
+
+.post_title{
+	font-size: 20px;
+    font-weight: 600;
+	padding-left: 10px;
+	color: #fff;
+}
+
+.post_text{
+	margin-top: -11px;
+    padding-left: 10px;
+	color: #c4c4c4;
+	 font-size: 14px;
+}
+
+.post_date{
+	padding-left: 10px;
+	color: #615e5e;
+}
+
+.sect_img{
+	width: 200px;
+	margin-left: 165px;
+	margin-bottom: 2px;
+}
+
+.music_title{
+	padding-left: 156px;
+
+	font-size: 25px;
+    font-weight: 700;
+	margin-top: 40px;
+	color: #fff;
+}
+
+.music_text{
+	padding-left: 196px;
+
+	font-size: 18px;
+	font-weight: 500;
+	color: #c4c4c4;
+}
+
+.post input{
+	width: 228px;
+    margin-left: 168px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.post input::-webkit-input-placeholder{
+	text-align: center;
+	color: #c2c2c2;
+}
+
+/* Soc */
+.soc_title{
+	padding-left: 203px;
+	padding-top: 75px;
+
+	font-size: 25px;
+    font-weight: 700;
+	margin-top: 40px;
+	color: #fff;
+}
+
+.soc_items{
+	width: 50px;
+	margin-left: 141px;
+}
+
+.post a{
+	text-decoration: none;
+}
+
+.soc_items--sound{
+	margin-left: 22px;
+}
+
+.soc_items--inst{
+	margin-left: 23px;
+}
+
+.soc_items--vk{
+	margin-left: 5px;
+}
+
+/* Feed */
+.feed_title{
+	padding-left: 203px;
+
+	font-size: 25px;
+    font-weight: 700;
+	margin-top: -98px;
+	color: #fff;
+}
+
+.post textarea{
+	height: 160px;
+    margin-left: 167px;
+    outline: none;
+}
+
+.post textarea::placeholder{
+	padding-top: 60px;
+	color: #c2c2c2;
+	text-align: center;
+}
+
+.prev{
+	margin-top: 30px;
+}
+
+.prev a{
+	text-decoration: none;
+	color: #6f6c6c;
+	font-size: 20px;
+	font-weight: 500;
+	padding-left: 324px;
+}
+
+.back{
+	margin-left: -308px;
+}
+
+/* Footer */
+.footer{
+	height: 500px;
+	margin-top: 800px;
+	text-align: center;
+}
+
+.footer_logo{
+	margin-top: 40px;
+	width: 250px;
+}
+
+.footer p{
+	margin-top: 10px;
+	font-weight: 500;
+	font-size: 20px;
+	color: #fff;
+}
+
+.footer_soc{
+	width: 40px;
+	margin-right: 5px;
+}
+
+.footer a{
+	text-decoration: none;
+}
